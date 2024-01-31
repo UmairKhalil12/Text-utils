@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    /* color : rgb(22, 22, 164) */
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.navbar li{
+    display: inline;
+    float: left;
+    text-align: center;
+    
+}
+
+.navbar a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover , li:hover{
+    background-color: rgb(123, 156, 73);
+}
+
+
+/* .navbar Btn{
+    float: right;
+    margin-left: 15%;
+} */
+
